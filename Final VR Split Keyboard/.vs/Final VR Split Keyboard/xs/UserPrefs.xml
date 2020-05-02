@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{31DFC3F8-FB75-29E3-8271-DD63D03B2DAE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KeyboardInput.cs">
+    <Files>
+      <File FileName="Assets/Scripts/KeyboardInput.cs" Line="21" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Final VR Split Keyboard" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="KeyboardInput.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2963fda3-f0eb-492e-8633-3342997fba9b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
