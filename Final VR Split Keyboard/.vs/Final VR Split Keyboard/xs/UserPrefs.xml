@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{31DFC3F8-FB75-29E3-8271-DD63D03B2DAE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/T9Hover.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainMenu.cs">
     <Files>
       <File FileName="Assets/Scripts/KeyboardInput.cs" Line="46" Column="1" />
-      <File FileName="Assets/Scripts/T9Hover.cs" Line="48" Column="6" />
+      <File FileName="Assets/Scripts/T9Hover.cs" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="31" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="Final VR Split Keyboard" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="T9Hover.cs" selected="True" />
+                <Node name="MainMenu.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="998d9633-def4-4ec0-9a82-14260a098511" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e21fb649-d9ac-4f0a-9f15-5dbd9d73afe9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
