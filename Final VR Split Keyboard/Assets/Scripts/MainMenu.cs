@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public AudioSource Mouse;
+    //public AudioSource Mouse;
 
     // Start is called before the first frame update
     void Start()
@@ -21,19 +21,19 @@ public class MainMenu : MonoBehaviour
 
     public void SelectControllerSplit()
     {
-        Mouse.Play();
+        //Mouse.Play();
         SceneManager.LoadScene("ControllerSplit");
     }
 
     public void SelectSpliT9()
     {
-        Mouse.Play();
+        //Mouse.Play();
         SceneManager.LoadScene("SpliT9");
     }
 
     public void SelectHandTracking()
     {
-        Mouse.Play();
+        //Mouse.Play();
         //SceneManager.LoadScene("SpliT9");
     }
 }
