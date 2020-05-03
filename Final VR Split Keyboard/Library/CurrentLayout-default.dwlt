@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 781
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 731
-  m_MinSize: {x: 706, y: 471}
-  m_MaxSize: {x: 18001, y: 14042}
+  m_MinSize: {x: 579, y: 442}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 5436
+  controlID: 3590
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1096
     height: 731
-  m_MinSize: {x: 431, y: 471}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 303, y: 442}
+  m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 5437
+  controlID: 3591
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 0
     width: 1096
     height: 418
-  m_MinSize: {x: 302, y: 200}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 303, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 5438
+  controlID: 3592
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 327
     height: 418
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 418
     width: 1096
     height: 313
-  m_MinSize: {x: 431, y: 271}
-  m_MaxSize: {x: 14001, y: 10021}
+  m_MinSize: {x: 303, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 5390
+  controlID: 3534
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -264,14 +264,14 @@ MonoBehaviour:
     y: 0
     width: 508
     height: 313
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,8 +291,8 @@ MonoBehaviour:
     y: 0
     width: 588
     height: 313
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -317,8 +317,8 @@ MonoBehaviour:
     y: 0
     width: 344
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -447,7 +447,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: be51ffffda51ffffdc51ffff9668ffffb268ffffb468ffff4269ffff5e69ffff6069fffff669ffff166affff4e6cffff6876ffffc076ffffdc76ffffde76ffff8477ffffa077ffffa277ffff6a7affff5a8bffff5c8bffff608bffff688bffff728bffff7a8bffff808bffff848bffff868bffff888bffff8a8bffff8c8bffff8e8bffff70fbffff626900006869000078690000866900008a690000026a0000146a0000e46e00002a6f0000666f0000726f00007e6f00004c700000f270000090770000d6770000127800001e7800002a780000f87800009e790000e69400002c9500004c95000076950000829500008e9500005e9600000c970000
+      m_ExpandedIDs: 929fffffae9fffffb09fffffc0a2ffffdca2ffffdea2ffff42a9ffff5ea9ffff60a9ffffb8bcffffd4bcffffd6bcffff7abdffff96bdffff98bdffffecbeffff08bfffff0abffffff8bfffff14c0ffff16c0ffffc2c4ffffdec4ffffe0c4ffffa6c5ffffc2c5ffffc4c5ffff2ccfffff32cfffffb4d2ffffb6d2ffffb8d2ffffaed7ffffb0d7ffff20e2ffff40e2ffff76e4ffff68edffff88edffffc0efffff82f6ffff38f7ffff58f7ffff8ef9ffff88faffff92faffffa0faffffa4faffffaafaffffb4faffff6cfbffff8e430000e05400002a5500006e5600000c570000d2570000885800001661000060610000a26200004063000006640000bc640000087a0000527a0000967b0000347c0000fa7c0000b07d0000868b00000a8d0000c88d0000e68f0000049b0000649b0000e89c0000a69d0000a89e0000c49f0000b8b0000068b2000042b300005ab300007ab500007ac10000dac100008ac3000064c400009cc60000fcd20000acd4000086d500009ed50000bed70000bee300001ee40000cee50000a8e60000e0e800009afa000002fb000018fd0000e6fd000008ff000008000100ba0c0100220d0100380f01000e100100261001003011010044120100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -507,9 +507,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.07125, y: -0.0009999983, z: 0}
+    m_Target: {x: 0.0010749996, y: 0.149, z: 0}
     speed: 2
-    m_Value: {x: 0.071250014, y: -0.0009999982, z: -4.2709836e-10}
+    m_Value: {x: 0.0010749996, y: 0.149, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -555,13 +555,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.24809176, y: -0.027026186, z: 0.006924262, w: -0.96833485}
+    m_Target: {x: -0.016807694, y: -0.011400892, z: 0.00019167365, w: -0.99979556}
     speed: 2
-    m_Value: {x: -0.24809173, y: -0.027026182, z: 0.006924261, w: -0.96833473}
+    m_Value: {x: -0.016807664, y: -0.011400872, z: 0.0001916733, w: -0.99979377}
   m_Size:
-    m_Target: 0.64772975
+    m_Target: 0.33959776
     speed: 2
-    m_Value: 0.3477297
+    m_Value: 0.03959775
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -715,20 +715,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/meerananda/Documents/Final VR Split Keyboard
+  m_LastProjectPath: /Users/meerananda/Documents/GitHub/Split-Keyboard/Final VR Split
+    Keyboard
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 50.99951}
-    m_SelectedIDs: 407a0000
-    m_LastClickedID: 31296
-    m_ExpandedIDs: 000000000c3a000054530000b253000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e23e0000
+    m_LastClickedID: 16098
+    m_ExpandedIDs: 00000000903c0000923c0000943c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,7 +757,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c3a0000545300006a530000b253000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000903c0000923c0000943c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -875,7 +876,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 141
+  m_LastVerticalScrollValue: 0
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52

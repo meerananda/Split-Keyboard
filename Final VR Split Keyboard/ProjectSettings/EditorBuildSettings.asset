@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/ControllerSplit.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SpliT9.unity
+    guid: c1559d01d55ab4946a9fd4691cea60b7
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 83582b964dd044d56a1c15a08cb680ea,
       type: 2}

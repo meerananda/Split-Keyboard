@@ -239,10 +239,10 @@
     <Compile Include="Assets\Oculus\Platform\Scripts\WindowsPlatform.cs" />
     <None Include="Assets\Oculus\Platform\Oculus.Platform.asmdef" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/meerananda/Documents/Final VR Split Keyboard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/meerananda/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/meerananda/Documents/Final VR Split Keyboard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/meerananda/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
