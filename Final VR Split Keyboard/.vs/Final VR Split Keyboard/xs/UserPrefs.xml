@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{31DFC3F8-FB75-29E3-8271-DD63D03B2DAE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KeyInput.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TypingController.cs">
     <Files>
-      <File FileName="Assets/Scripts/KeyboardInput.cs" Line="46" Column="1" />
+      <File FileName="Assets/Scripts/KeyboardInput.cs" Line="17" Column="21" />
       <File FileName="Assets/Scripts/MainMenu.cs" Line="31" Column="6" />
-      <File FileName="Assets/Scripts/KeyInput.cs" Line="29" Column="25" />
-      <File FileName="Assets/Scripts/TypingController.cs" Line="81" Column="1" />
+      <File FileName="Assets/Scripts/KeyInput.cs" Line="75" Column="26" />
+      <File FileName="Assets/Scripts/TypingController.cs" Line="110" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

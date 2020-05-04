@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - OvrAvatar
     - OvrAvatarLocalDriver
     - OvrAvatarSettings
+    - T9Hover
     - TypingController
     - TypingModel
     Oculus.Platform.dll:
@@ -42,6 +43,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -50,7 +52,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/ControllerSplit.unity:
+    Assets/Scenes/SpliT9.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -114,6 +116,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13174}
     - Class: 114
+      Script: {instanceID: 13264}
+    - Class: 114
       Script: {instanceID: 13390}
     - Class: 114
       Script: {instanceID: 13472}
@@ -129,6 +133,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14058}
     - Class: 114
       Script: {instanceID: 14144}
+    - Class: 114
+      Script: {instanceID: 14536}
     - Class: 114
       Script: {instanceID: 14612}
     - Class: 114
@@ -1958,5 +1964,5 @@ ScriptsOnlyBuild:
     className: ButtonListener
   platform: 13
   scenePathNames:
-  - Assets/Scenes/ControllerSplit.unity
-  playerPath: /Users/Zhiling/Desktop/controller.apk
+  - Assets/Scenes/SpliT9.unity
+  playerPath: /Users/Zhiling/Desktop/split9.apk
