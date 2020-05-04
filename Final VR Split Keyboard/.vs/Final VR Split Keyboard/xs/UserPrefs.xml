@@ -1,27 +1,15 @@
 ﻿<Properties StartupConfiguration="{31DFC3F8-FB75-29E3-8271-DD63D03B2DAE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KeyInput.cs">
     <Files>
       <File FileName="Assets/Scripts/KeyboardInput.cs" Line="46" Column="1" />
-      <File FileName="Assets/Scripts/T9Hover.cs" />
       <File FileName="Assets/Scripts/MainMenu.cs" Line="31" Column="6" />
+      <File FileName="Assets/Scripts/KeyInput.cs" Line="29" Column="25" />
+      <File FileName="Assets/Scripts/TypingController.cs" Line="81" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Final VR Split Keyboard" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="MainMenu.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e21fb649-d9ac-4f0a-9f15-5dbd9d73afe9" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f3f8bb1d-f1e0-4473-b4db-7a615e3174ae" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

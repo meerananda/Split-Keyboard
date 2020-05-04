@@ -1,46 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/meerananda/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Temp/gradleOut/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/Zhiling/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Temp/gradleOut/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/meerananda/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Temp/gradleOut/launcher/src/main/res/values/ids.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "46",
-                        "endOffsets": "97"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "45",
-                        "endOffsets": "96"
-                    }
-                },
-                {
-                    "source": "/Users/meerananda/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Temp/gradleOut/launcher/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
-                    },
-                    "to": {
-                        "startLines": "6,8,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "274,374,512",
-                        "endLines": "7,10,14",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "369,507,734"
-                    }
-                },
-                {
-                    "source": "/Users/meerananda/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Temp/gradleOut/launcher/src/main/res/values/strings.xml",
+                    "source": "/Users/Zhiling/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Temp/gradleOut/launcher/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "2,2",
@@ -57,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/meerananda/.gradle/caches/transforms-2/files-2.1/bd6c99d0f00c133a1d0c5d50a1ee2467/res/values/values.xml",
+                    "source": "/Users/Zhiling/.gradle/caches/transforms-2/files-2.1/d6ee9c5499fdd8d261455db89049e7e8/res/values/values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "2",
@@ -71,6 +35,42 @@
                         "startOffsets": "230",
                         "endColumns": "43",
                         "endOffsets": "269"
+                    }
+                },
+                {
+                    "source": "/Users/Zhiling/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Temp/gradleOut/launcher/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "/Users/Zhiling/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Temp/gradleOut/launcher/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "6,8,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "274,374,512",
+                        "endLines": "7,10,14",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "369,507,734"
                     }
                 }
             ]

@@ -1,15 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - HandedInputSelector
+    - KeyInput
     - KeyboardInput
-    - LaserPointer
-    - MainMenu
     - ONSPSettings
     - OvrAvatar
     - OvrAvatarLocalDriver
     - OvrAvatarSettings
-    - T9Hover
+    - TypingController
+    - TypingModel
     Oculus.Platform.dll:
     - Oculus.Platform.PlatformSettings
     Oculus.VR.Editor.dll:
@@ -21,10 +20,8 @@ ScriptsOnlyBuild:
     - OVRHeadsetEmulator
     - OVRManager
     - OVRPlayerController
-    - OVRRaycaster
     - OVRSceneSampleController
     - OVRScreenFade
-    - UnityEngine.EventSystems.OVRInputModule
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
@@ -45,13 +42,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/ControllerSplit.unity:
@@ -73,88 +69,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11302}
-    - Class: 114
-      Script: {instanceID: 11392}
-    - Class: 114
-      Script: {instanceID: 11570}
-    - Class: 114
-      Script: {instanceID: 11596}
-    - Class: 114
-      Script: {instanceID: 11660}
-    - Class: 114
-      Script: {instanceID: 11826}
-    - Class: 114
-      Script: {instanceID: 11932}
-    - Class: 114
-      Script: {instanceID: 11968}
-    - Class: 114
-      Script: {instanceID: 12538}
-    - Class: 114
-      Script: {instanceID: 12540}
-    - Class: 114
-      Script: {instanceID: 12752}
-    - Class: 114
-      Script: {instanceID: 12896}
-    - Class: 114
-      Script: {instanceID: 13128}
-    - Class: 114
-      Script: {instanceID: 13174}
-    - Class: 114
-      Script: {instanceID: 13390}
-    - Class: 114
-      Script: {instanceID: 13526}
-    - Class: 114
-      Script: {instanceID: 13584}
-    - Class: 114
-      Script: {instanceID: 14000}
-    - Class: 114
-      Script: {instanceID: 14612}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/MainMenu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
+    - Class: 49
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -177,106 +92,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11692}
-    - Class: 114
-      Script: {instanceID: 11826}
-    - Class: 114
-      Script: {instanceID: 12226}
-    - Class: 114
-      Script: {instanceID: 12306}
-    - Class: 114
-      Script: {instanceID: 12378}
-    - Class: 114
-      Script: {instanceID: 12538}
-    - Class: 114
-      Script: {instanceID: 12752}
-    - Class: 114
-      Script: {instanceID: 12896}
-    - Class: 114
-      Script: {instanceID: 13174}
-    - Class: 114
-      Script: {instanceID: 13342}
-    - Class: 114
-      Script: {instanceID: 13472}
-    - Class: 114
-      Script: {instanceID: 13584}
-    - Class: 114
-      Script: {instanceID: 14000}
-    - Class: 114
-      Script: {instanceID: 14058}
-    - Class: 114
-      Script: {instanceID: 14144}
-    - Class: 114
-      Script: {instanceID: 14146}
-    - Class: 114
-      Script: {instanceID: 14450}
-    - Class: 114
-      Script: {instanceID: 14468}
-    - Class: 114
-      Script: {instanceID: 14612}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/SpliT9.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11302}
-    - Class: 114
-      Script: {instanceID: 11392}
-    - Class: 114
-      Script: {instanceID: 11570}
-    - Class: 114
-      Script: {instanceID: 11596}
-    - Class: 114
-      Script: {instanceID: 11660}
-    - Class: 114
       Script: {instanceID: 11826}
     - Class: 114
       Script: {instanceID: 11932}
     - Class: 114
       Script: {instanceID: 11968}
+    - Class: 114
+      Script: {instanceID: 12226}
+    - Class: 114
+      Script: {instanceID: 12306}
     - Class: 114
       Script: {instanceID: 12538}
     - Class: 114
@@ -290,9 +114,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13174}
     - Class: 114
-      Script: {instanceID: 13264}
-    - Class: 114
       Script: {instanceID: 13390}
+    - Class: 114
+      Script: {instanceID: 13472}
+    - Class: 114
+      Script: {instanceID: 13506}
     - Class: 114
       Script: {instanceID: 13526}
     - Class: 114
@@ -300,9 +126,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14000}
     - Class: 114
-      Script: {instanceID: 14536}
+      Script: {instanceID: 14058}
+    - Class: 114
+      Script: {instanceID: 14144}
     - Class: 114
       Script: {instanceID: 14612}
+    - Class: 114
+      Script: {instanceID: 22000}
+    - Class: 114
+      Script: {instanceID: 22002}
+    - Class: 114
+      Script: {instanceID: 22004}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -312,6 +146,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -2090,9 +1926,37 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8b751ea9ac08c048355865b722865681
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KbHMDFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 47ae4b28077708ec0dbdc743b86a8378
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KeyInput
+  - hash:
+      serializedVersion: 2
+      Hash: 59d8ae2a0405f72f42b880f3f40cb210
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TypingModel
+  - hash:
+      serializedVersion: 2
+      Hash: b1d69673283a57a500a8cad3a4d33fe3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TypingController
+  - hash:
+      serializedVersion: 2
+      Hash: 7901a968bf17933bc32a330ea4c5e8e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonListener
   platform: 13
   scenePathNames:
-  - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/ControllerSplit.unity
-  - Assets/Scenes/SpliT9.unity
-  playerPath: /Users/meerananda/Documents/Final VR Split Keyboard/Split Keyboard.apk
+  playerPath: /Users/Zhiling/Desktop/controller.apk
