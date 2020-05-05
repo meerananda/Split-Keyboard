@@ -84,65 +84,65 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11302}
     - Class: 114
-      Script: {instanceID: 11394}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 11574}
+      Script: {instanceID: 11572}
     - Class: 114
-      Script: {instanceID: 11600}
+      Script: {instanceID: 11598}
     - Class: 114
-      Script: {instanceID: 11664}
+      Script: {instanceID: 11662}
+    - Class: 114
+      Script: {instanceID: 11828}
     - Class: 114
       Script: {instanceID: 11830}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 11974}
+      Script: {instanceID: 12230}
     - Class: 114
-      Script: {instanceID: 12232}
+      Script: {instanceID: 12310}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 12324}
     - Class: 114
-      Script: {instanceID: 12326}
+      Script: {instanceID: 12544}
     - Class: 114
       Script: {instanceID: 12546}
     - Class: 114
-      Script: {instanceID: 12548}
+      Script: {instanceID: 12758}
     - Class: 114
-      Script: {instanceID: 12760}
+      Script: {instanceID: 12898}
     - Class: 114
-      Script: {instanceID: 12900}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 13136}
     - Class: 114
-      Script: {instanceID: 13138}
+      Script: {instanceID: 13182}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 13274}
+      Script: {instanceID: 13398}
     - Class: 114
-      Script: {instanceID: 13400}
+      Script: {instanceID: 13480}
     - Class: 114
-      Script: {instanceID: 13482}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 13516}
+      Script: {instanceID: 13534}
     - Class: 114
-      Script: {instanceID: 13536}
+      Script: {instanceID: 13592}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 14006}
     - Class: 114
-      Script: {instanceID: 14010}
+      Script: {instanceID: 14066}
     - Class: 114
-      Script: {instanceID: 14070}
+      Script: {instanceID: 14152}
     - Class: 114
-      Script: {instanceID: 14156}
+      Script: {instanceID: 14544}
     - Class: 114
-      Script: {instanceID: 14548}
-    - Class: 114
-      Script: {instanceID: 14624}
+      Script: {instanceID: 14620}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1965,4 +1965,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SpliT9.unity
-  playerPath: /Users/Zhiling/Desktop/split9.apk
+  playerPath: /Users/meerananda/Documents/ControllerSplit.apk
