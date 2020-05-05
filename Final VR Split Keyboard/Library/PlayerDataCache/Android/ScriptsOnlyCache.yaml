@@ -84,65 +84,65 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11302}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11394}
     - Class: 114
-      Script: {instanceID: 11570}
+      Script: {instanceID: 11574}
     - Class: 114
-      Script: {instanceID: 11596}
+      Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11664}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11830}
     - Class: 114
-      Script: {instanceID: 11932}
+      Script: {instanceID: 11832}
     - Class: 114
-      Script: {instanceID: 11968}
+      Script: {instanceID: 11938}
     - Class: 114
-      Script: {instanceID: 12226}
+      Script: {instanceID: 11974}
     - Class: 114
-      Script: {instanceID: 12306}
+      Script: {instanceID: 12232}
     - Class: 114
-      Script: {instanceID: 12538}
+      Script: {instanceID: 12312}
     - Class: 114
-      Script: {instanceID: 12540}
+      Script: {instanceID: 12326}
     - Class: 114
-      Script: {instanceID: 12752}
+      Script: {instanceID: 12546}
     - Class: 114
-      Script: {instanceID: 12896}
+      Script: {instanceID: 12548}
     - Class: 114
-      Script: {instanceID: 13128}
+      Script: {instanceID: 12760}
     - Class: 114
-      Script: {instanceID: 13174}
+      Script: {instanceID: 12900}
     - Class: 114
-      Script: {instanceID: 13264}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 13390}
+      Script: {instanceID: 13138}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 13506}
+      Script: {instanceID: 13274}
     - Class: 114
-      Script: {instanceID: 13526}
+      Script: {instanceID: 13400}
     - Class: 114
-      Script: {instanceID: 13584}
+      Script: {instanceID: 13482}
     - Class: 114
-      Script: {instanceID: 14000}
+      Script: {instanceID: 13516}
     - Class: 114
-      Script: {instanceID: 14058}
+      Script: {instanceID: 13536}
     - Class: 114
-      Script: {instanceID: 14144}
+      Script: {instanceID: 13594}
     - Class: 114
-      Script: {instanceID: 14536}
+      Script: {instanceID: 14010}
     - Class: 114
-      Script: {instanceID: 14612}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 22000}
+      Script: {instanceID: 14156}
     - Class: 114
-      Script: {instanceID: 22002}
+      Script: {instanceID: 14548}
     - Class: 114
-      Script: {instanceID: 22004}
+      Script: {instanceID: 14624}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -264,6 +264,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 8b751ea9ac08c048355865b722865681
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KbHMDFollower
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -432,6 +438,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 47ae4b28077708ec0dbdc743b86a8378
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KeyInput
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -684,6 +696,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 59d8ae2a0405f72f42b880f3f40cb210
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TypingModel
   - hash:
       serializedVersion: 2
       Hash: 5777c70a25f193ad387a5581565b81b9
@@ -972,6 +990,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: P2PNetworkBall
+  - hash:
+      serializedVersion: 2
+      Hash: b1d69673283a57a500a8cad3a4d33fe3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TypingController
   - hash:
       serializedVersion: 2
       Hash: 22dc216204f0e65ce2161bd7b6ecf06b
@@ -1604,6 +1628,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 7901a968bf17933bc32a330ea4c5e8e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonListener
+  - hash:
+      serializedVersion: 2
       Hash: 34c971ccf5a4d4c276f7753251cba95d
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -1932,36 +1962,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8b751ea9ac08c048355865b722865681
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KbHMDFollower
-  - hash:
-      serializedVersion: 2
-      Hash: 47ae4b28077708ec0dbdc743b86a8378
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: KeyInput
-  - hash:
-      serializedVersion: 2
-      Hash: 59d8ae2a0405f72f42b880f3f40cb210
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TypingModel
-  - hash:
-      serializedVersion: 2
-      Hash: b1d69673283a57a500a8cad3a4d33fe3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TypingController
-  - hash:
-      serializedVersion: 2
-      Hash: 7901a968bf17933bc32a330ea4c5e8e9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonListener
   platform: 13
   scenePathNames:
   - Assets/Scenes/SpliT9.unity

@@ -15,7 +15,7 @@ public class TypingController : MonoBehaviour
     private bool GameOn = false;
 
     private DateTime StartTime;
-    private float elapsed = 0;
+    private double elapsed = 0;
     private int currPhraseInd = -1;
     private int backspaceHitsCount = 0;
 
@@ -31,7 +31,7 @@ public class TypingController : MonoBehaviour
         //if (GameOn)
         //{
         //    hitsDisplay.text = backspaceHitsCount.ToString() + " hits";
-        //    DebugDisplay.text = model.DataUpdate();
+        //    DebugDisplay.text = DateTime.Now.Subtract(StartTime).TotalSeconds.ToString();
         //}
     }
 
@@ -61,7 +61,7 @@ public class TypingController : MonoBehaviour
 
     private void EndGame()
     {
-        elapsed = (DateTime.Now - StartTime).Seconds;   // elapsed time since game starts
+        elapsed = DateTime.Now.Subtract(StartTime).TotalSeconds;   // elapsed time since game starts
 
         GameOn = false;                                 // toggle off the game state
 

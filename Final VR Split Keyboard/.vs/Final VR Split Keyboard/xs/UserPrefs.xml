@@ -2,14 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TypingController.cs">
     <Files>
       <File FileName="Assets/Scripts/KeyboardInput.cs" Line="17" Column="21" />
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="31" Column="6" />
-      <File FileName="Assets/Scripts/KeyInput.cs" Line="75" Column="26" />
-      <File FileName="Assets/Scripts/TypingController.cs" Line="110" Column="1" />
+      <File FileName="Assets/Scripts/MainMenu.cs" />
+      <File FileName="Assets/Scripts/KeyInput.cs" />
+      <File FileName="Assets/Scripts/TypingController.cs" Line="32" Column="12" />
+      <File FileName="Assets/Scripts/TypingModel.cs" Line="17" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f3f8bb1d-f1e0-4473-b4db-7a615e3174ae" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5ab42e5c-8645-4dec-b094-6e50fda45055" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

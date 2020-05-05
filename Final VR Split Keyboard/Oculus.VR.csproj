@@ -148,11 +148,11 @@
     <None Include="Assets\Oculus\VR\NOTICE.txt" />
     <None Include="Assets\Oculus\VR\Shaders\OVRVignette.shader" />
     <None Include="Assets\Oculus\VR\Resources\Unlit Transparent Color.shader" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/Zhiling/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/Zhiling/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Users/Zhiling/Documents/GitHub/Split-Keyboard/Final VR Split Keyboard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Users/Zhiling/Documents/2019.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

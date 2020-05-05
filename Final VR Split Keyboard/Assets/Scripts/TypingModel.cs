@@ -14,7 +14,7 @@ public class TypingModel : MonoBehaviour
 
     // dynamic data passed from Typing controller
     private int hitsCount;
-    private float elapsedTime;
+    private double elapsedTime;
     private string TrialEntry;
 
     void Awake()
@@ -78,7 +78,7 @@ public class TypingModel : MonoBehaviour
         hitsCount = i;
     }
 
-    public void SaveElapsedTime(float t)
+    public void SaveElapsedTime(double t)
     {
         elapsedTime = t;
     }
