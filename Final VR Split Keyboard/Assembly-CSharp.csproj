@@ -220,6 +220,7 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\Scripts\ButtonListener.cs" />
+    <Compile Include="Assets\Scripts\ButtonSound.cs" />
     <Compile Include="Assets\Scripts\KbHMDFollower.cs" />
     <Compile Include="Assets\Scripts\KeyInput.cs" />
     <Compile Include="Assets\Scripts\KeyboardInput.cs" />

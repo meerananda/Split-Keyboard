@@ -132,8 +132,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14008}
     - Class: 114
-      Script: {instanceID: 14156}
-    - Class: 114
       Script: {instanceID: 14478}
     - Class: 114
       Script: {instanceID: 14622}
@@ -2152,6 +2150,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 361bd917473b53660e9ae90f1ba25f15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonSound
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

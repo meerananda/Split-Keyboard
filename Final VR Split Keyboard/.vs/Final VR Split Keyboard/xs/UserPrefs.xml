@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{31DFC3F8-FB75-29E3-8271-DD63D03B2DAE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonSound.cs">
     <Files>
       <File FileName="Assets/Scripts/KeyboardInput.cs" Line="17" Column="21" />
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="44" Column="6" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="19" Column="1" />
       <File FileName="Assets/Scripts/KeyInput.cs" />
-      <File FileName="Assets/Scripts/TypingController.cs" />
+      <File FileName="Assets/Scripts/TypingController.cs" Line="76" Column="1" />
+      <File FileName="Assets/Scripts/ButtonSound.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +13,7 @@
           <Node name="Final VR Split Keyboard" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="MainMenu.cs" selected="True" />
+                <Node name="ButtonSound.cs" selected="True" />
               </Node>
             </Node>
           </Node>
