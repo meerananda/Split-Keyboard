@@ -36,4 +36,10 @@ public class MainMenu : MonoBehaviour
         //Mouse.Play();
         //SceneManager.LoadScene("SpliT9");
     }
+
+    public void SelectMainMenu()
+    {
+        //Mouse.Play();
+        SceneManager.LoadScene("MainMenu");
+    }
 }

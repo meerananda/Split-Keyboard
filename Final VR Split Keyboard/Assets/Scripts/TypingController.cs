@@ -19,6 +19,9 @@ public class TypingController : MonoBehaviour
     private int currPhraseInd = -1;
     private int backspaceHitsCount = 0;
 
+    public GameObject returnButton;
+    public GameObject mainMenuButton;
+
     void Awake()
     {
         if (modelData != null)
@@ -70,6 +73,9 @@ public class TypingController : MonoBehaviour
         model.SaveElapsedTime(elapsed);
 
         model.SaveDataToLocal();
+
+        mainMenuButton.SetActive(true);
+        returnButton.SetActive(false);
     }
 
     // when ready key is pressed
