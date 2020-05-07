@@ -37,7 +37,7 @@ public class TypingController : MonoBehaviour
     {
         if (modelData != null)
             model = modelData.GetComponent<TypingModel>();
-        
+
         PracticeStartTime = DateTime.Now;
         //DebugDisplay.text = "AWAKE";
     }
@@ -180,3 +180,4 @@ public class TypingController : MonoBehaviour
     //}
 
 }
+Is

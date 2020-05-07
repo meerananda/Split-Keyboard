@@ -81,9 +81,11 @@ public class KeyInput : MonoBehaviour
 
     public void ReturnEntry()
     {
-        //TextField.text
-        controller.SaveCurrData(TextField.text);
-        ClearTextField();
+        if (TextField.text.Length > 0)
+        {
+            controller.SaveCurrData(TextField.text);
+            ClearTextField();
+        }
     }
 
     public void MainMenu()

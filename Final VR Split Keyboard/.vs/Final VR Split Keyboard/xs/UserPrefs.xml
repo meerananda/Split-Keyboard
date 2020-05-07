@@ -1,20 +1,20 @@
 ﻿<Properties StartupConfiguration="{31DFC3F8-FB75-29E3-8271-DD63D03B2DAE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TypingModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KeyInput.cs">
     <Files>
-      <File FileName="Assets/Scripts/KeyInput.cs" Line="36" Column="36" />
-      <File FileName="Assets/Scripts/TypingController.cs" Line="34" Column="1" />
-      <File FileName="Assets/Scripts/ButtonSound.cs" Line="1" Column="1" />
-      <File FileName="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs" Line="1" Column="1" />
-      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/KeyInput.cs" Line="107" Column="2" />
+      <File FileName="Assets/Scripts/TypingController.cs" Line="147" Column="37" />
+      <File FileName="Assets/Scripts/ButtonSound.cs" />
+      <File FileName="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs" />
+      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs" />
       <File FileName="Assets/Scripts/TypingModel.cs" Line="120" Column="34" />
-      <File FileName="Assets/Scripts/SpaceNavi.cs" Line="27" Column="1" />
-      <File FileName="Assets/Scripts/CustomizedNavigation.cs" Line="20" Column="1" />
-      <File FileName="Assets/Scripts/ReturnNavi.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/SpaceNavi.cs" />
+      <File FileName="Assets/Scripts/CustomizedNavigation.cs" />
+      <File FileName="Assets/Scripts/ReturnNavi.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a8dfc16e-8c70-49d5-942b-7b40751a4dc6" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a797bbe1-23e8-4f5f-9c8b-5a2a4907bec0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

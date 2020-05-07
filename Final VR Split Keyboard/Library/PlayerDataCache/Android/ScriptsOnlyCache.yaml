@@ -390,7 +390,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14706}
     - Class: 114
-      Script: {instanceID: 19106}
+      Script: {instanceID: 16628}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -517,9 +517,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14820}
     - Class: 114
-      Script: {instanceID: 27232}
+      Script: {instanceID: 20754}
     - Class: 114
-      Script: {instanceID: 27240}
+      Script: {instanceID: 20784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
