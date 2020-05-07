@@ -748,7 +748,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Explore on your own. \nPress either index trigger to get started."
+  m_Text: Press either index trigger on the controllers when you are ready to begin
+    the task.
 --- !u!222 &103839059
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6813,7 +6814,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Type down your name and hit return.
+  m_Text: Practice typing below for as long as you need
 --- !u!222 &893203483
 CanvasRenderer:
   m_ObjectHideFlags: 0

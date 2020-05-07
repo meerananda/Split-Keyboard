@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Type down your name and hit return.
+  m_Text: Practice typing below for as long as needed
 --- !u!222 &26925254
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -763,7 +763,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7e89e80fce8fc06478c726f2f3de7863, type: 3}
+    m_Font: {fileID: 12800000, guid: 440e99598766dbd40a4d8bc01445b5ca, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -775,7 +775,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Explore on your own. \nPress either trigger when you are ready."
+  m_Text: Press either index trigger on the controllers when you are ready to begin
+    the task.
 --- !u!222 &85490141
 CanvasRenderer:
   m_ObjectHideFlags: 0
