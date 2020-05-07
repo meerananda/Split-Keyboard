@@ -9,29 +9,32 @@ public class TypingModel : MonoBehaviour
     public TextAsset phrasesFile;
 
     private List<string> phrasesLst;
-    private List<string> entryLst;
-    private int totalCount;
+    private List<string> EntryLst;
+    private int TotalCount;
 
     // dynamic data passed from Typing controller
-    private int hitsCount;
-    private double elapsedTime;
+    private int HitsCount;
+    private double PracticeTime;
+    private double TaskTime;
     private string TrialEntry;
+    private string Timestamp;
 
     void Awake()
     {
         ResetData();
         PraseTextFile(phrasesFile);
-
     }
 
     private void ResetData()
     {
         phrasesLst = new List<string>();
-        entryLst = new List<string>();
-        totalCount = 0;
-        hitsCount = 0;
-        elapsedTime = 0f;
+        EntryLst = new List<string>();
+        TotalCount = 0;
+        HitsCount = 0;
+        PracticeTime = 0f;
+        TaskTime = 0f;
         TrialEntry = "";
+        Timestamp = "";
     }
 
     private void PraseTextFile(TextAsset txt)
@@ -42,19 +45,19 @@ public class TypingModel : MonoBehaviour
             foreach (var line in arrStr)
                 phrasesLst.Add(line);
 
-            totalCount = phrasesLst.Count;
+            TotalCount = phrasesLst.Count;
         }
     }
 
     public int GetPhrasesCount()
     {
-        return totalCount;
+        return TotalCount;
     }
 
 
     public string GetPhrase(int i)
     {
-        if (phrasesLst != null && i < totalCount)
+        if (phrasesLst != null && i < TotalCount)
         {
             return phrasesLst[i];
         }
@@ -69,39 +72,47 @@ public class TypingModel : MonoBehaviour
 
     public void SaveCurrEntry(string str)
     {
-        if (entryLst != null)
-            entryLst.Add(str);
+        if (EntryLst != null)
+            EntryLst.Add(str);
     }
 
     public void SaveHits(int i)
     {
-        hitsCount = i;
+        HitsCount = i;
     }
 
-    public void SaveElapsedTime(double t)
+    public void SavePracticeTime(double t)
     {
-        elapsedTime = t;
+        PracticeTime = t;
     }
+
+    public void SaveTaskTime(double t)
+    {
+        TaskTime = t;
+    }
+
 
     public int GetEntriesCount()
     {
-        return entryLst.Count;
+        return EntryLst.Count;
     }
 
     private string CurrData()
     {
         string data = "==========================" + "\n";
+        data += Timestamp + "\n";
         data += "Practice: [" + TrialEntry + "]";
-        data += "\n" + hitsCount + " hits";
-        data += "\n" + elapsedTime + " seconds" + "\n";
-        data += string.Join("\n", entryLst.ToArray());
+        data += "\n" + HitsCount + " hits";
+        data += "\n" + "Practice Time: " + PracticeTime + " seconds";
+        data += "\n" + "Task Time: " + TaskTime + " seconds" + "\n";
+        data += string.Join("\n", EntryLst.ToArray());
         data += "\n";
         return data;
     }
 
-    public string DataUpdate()
+    public void SaveDateForRef(DateTime time)
     {
-        return string.Join("\n", entryLst.ToArray());
+        Timestamp = time.ToString();
     }
 
     public void SaveDataToLocal()
@@ -111,10 +122,6 @@ public class TypingModel : MonoBehaviour
         try
         {
             File.AppendAllText(Application.persistentDataPath + "/TypingRecords.txt", data);
-            //BinaryFormatter bf = new BinaryFormatter();
-            //FileStream fs = new FileStream(Application.persistentDataPath + "/TypingRecords.txt", FileMode.OpenOrCreate);
-            //bf.Serialize(fs, data);
-            //fs.Close();
         }
         catch (Exception e)
         {
@@ -123,4 +130,6 @@ public class TypingModel : MonoBehaviour
 
 
     }
+
+
 }

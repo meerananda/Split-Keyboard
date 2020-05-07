@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using OculusSampleFramework;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class KeyInput : MonoBehaviour
@@ -19,7 +20,7 @@ public class KeyInput : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -33,15 +34,19 @@ public class KeyInput : MonoBehaviour
                 controller.StartGame();
             }
         }
-        
     }
 
     public void ButtonStateChanged(InteractableStateArgs obj)
     {
         if (obj.NewInteractableState == InteractableState.ActionState)
         {
-            
+
         }
+    }
+
+    public void InsertAlphabet(Object obj)
+    {
+        TextField.text += obj.name;
     }
 
     public void InsertAlphabet(GameObject obj)
@@ -76,14 +81,20 @@ public class KeyInput : MonoBehaviour
         ClearTextField();
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     // empty the text
     void ClearTextField()
     {
         TextField.text = "";
     }
 
-    public void QuitPressed()
-    {
-        controller.QuitApp();
-    }
+
+    //public void QuitPressed()
+    //{
+    //    controller.QuitApp();
+    //}
 }

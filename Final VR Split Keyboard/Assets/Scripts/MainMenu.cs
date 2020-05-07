@@ -34,7 +34,7 @@ public class MainMenu : MonoBehaviour
     public void SelectHandTracking()
     {
         //Mouse.Play();
-        //SceneManager.LoadScene("SpliT9");
+        SceneManager.LoadScene("SplitKBHandTracking");
     }
 
     public void SelectMainMenu()

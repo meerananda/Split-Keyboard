@@ -1,29 +1,18 @@
 ﻿<Properties StartupConfiguration="{31DFC3F8-FB75-29E3-8271-DD63D03B2DAE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonSound.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TypingModel.cs">
     <Files>
       <File FileName="Assets/Scripts/KeyboardInput.cs" Line="17" Column="21" />
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/KeyInput.cs" />
-      <File FileName="Assets/Scripts/TypingController.cs" Line="76" Column="1" />
-      <File FileName="Assets/Scripts/ButtonSound.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/KeyInput.cs" Line="22" Column="6" />
+      <File FileName="Assets/Scripts/TypingController.cs" Line="121" Column="25" />
+      <File FileName="Assets/Scripts/ButtonSound.cs" Line="24" Column="6" />
+      <File FileName="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs" Line="1" Column="1" />
+      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TypingModel.cs" Line="111" Column="6" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Final VR Split Keyboard" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="ButtonSound.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f94d616e-627b-4c95-8df7-273ed3a908c5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f9106b82-a45d-440b-97f9-9f2a8e921703" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

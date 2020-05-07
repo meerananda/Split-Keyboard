@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SpliT9.unity
     guid: c1559d01d55ab4946a9fd4691cea60b7
+  - enabled: 1
+    path: Assets/Scenes/SplitKBHandTracking.unity
+    guid: 529430c8b656148a08dae959d3720b3a
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 83582b964dd044d56a1c15a08cb680ea,
       type: 2}
