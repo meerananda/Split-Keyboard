@@ -525,7 +525,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -102}
+  m_AnchoredPosition: {x: 0, y: -115}
   m_SizeDelta: {x: 1000, y: 130.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64114823
@@ -4304,7 +4304,7 @@ Transform:
   m_GameObject: {fileID: 525893002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.3, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.4, z: 0.6}
+  m_LocalScale: {x: 0.5, y: 0.4, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1027373676}
   m_RootOrder: 2
@@ -7294,7 +7294,7 @@ MonoBehaviour:
     to begin hand tracking.
 
 
-    Practice as long as you need'
+    Practice as long as you need.'
 --- !u!222 &759084301
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8942,7 +8942,18 @@ MonoBehaviour:
       m_Calls: []
   actionEvt:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 160544687}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   defaultEvt:
     m_PersistentCalls:
       m_Calls:
@@ -13460,6 +13471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextField: {fileID: 737038552}
   TypingController: {fileID: 1772197650}
+  HandTrackingEnabled: 1
 --- !u!4 &1668010204
 Transform:
   m_ObjectHideFlags: 0
@@ -15185,7 +15197,29 @@ MonoBehaviour:
       m_Calls: []
   actionEvt:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 160544687}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 160544688}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   defaultEvt:
     m_PersistentCalls:
       m_Calls:

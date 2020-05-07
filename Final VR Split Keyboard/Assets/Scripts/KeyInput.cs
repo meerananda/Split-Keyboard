@@ -11,6 +11,7 @@ public class KeyInput : MonoBehaviour
     public GameObject TypingController;
     private TypingController controller;
 
+    public bool HandTrackingEnabled;
     void Awake()
     {
         if (TypingController != null)
@@ -26,14 +27,18 @@ public class KeyInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!controller.IfGameOn())
+        if (!HandTrackingEnabled)
         {
-            if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+            if (!controller.IfGameOn())
             {
-                ClearTextField();
-                controller.StartGame();
+                if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+                {
+                    ClearTextField();
+                    controller.StartGame();
+                }
             }
         }
+        
     }
 
     public void ButtonStateChanged(InteractableStateArgs obj)

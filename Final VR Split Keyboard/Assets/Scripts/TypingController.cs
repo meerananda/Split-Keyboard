@@ -32,13 +32,14 @@ public class TypingController : MonoBehaviour
     public GameObject returnButton;
     public GameObject mainMenuButton;
 
+
     void Awake()
     {
         if (modelData != null)
             model = modelData.GetComponent<TypingModel>();
         
         PracticeStartTime = DateTime.Now;
-        DebugDisplay.text = "AWAKE";
+        //DebugDisplay.text = "AWAKE";
     }
 
     void Start()
